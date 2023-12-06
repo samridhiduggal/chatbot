@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="robo.png" type="image/x-icon">  
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="groovebotstyling.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> GrooveBot: Music according to your taste </title>
+</head>
+<body style="margin:0">
+    <div id="navbar">
+        <div class="logo">
+          <img src="robo.png" height="60px"/>
+        </div>
+    <a href="javascript:void(0)">Help</a>
+    <a href="login.html">Login/Signup</a>
+    <a href="groovebot.html">Home</a>
+  </div> </br></br></br>
+    <div class="parentContainer">
+    <img src = music1.jpg width="1550" height="770"> 
+    </div>
+    <div class="centered">
+        <h1 class="id"> GrooveBot </h1>
+        <h3 class="id">A Chatbot Song Recommendation System </h3>
+        <p style="color:white">This is a Song recommendation system, where you can convey your feelings to our Chatbot "GrooveBot", and it will provide you with songs that will help you cheer your mood. 
+          Just simply tell our GrooveBot your mood, artists and songs will be recommended to you out of which select the one's that cheer you up.
+      </p>
+        
+    </div>
+
+    
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+
+</body>
+</html>

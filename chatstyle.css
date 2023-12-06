@@ -1,0 +1,124 @@
+body{
+  background-color: black;
+}
+.wrapper {
+  width: 370px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  border-top: 0px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .typing-field {
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background: rgb(195, 177, 225);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user-inbox {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .bot-inbox {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .msg-header {
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .msg-header p {
+    margin: 0;
+  }
+  
+  .icon {
+    padding: 10px;
+    background: rgb(195, 177, 225);
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  h1{
+    color: white;
+    text-align: center;
+    font-family: "Verdana", "Lucida Handwriting", serif;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-family: "Verdana", "Lucida Handwriting", serif;
+}
+
+.leftdiv{
+    float: left;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    }
+
+
+.rightdiv{
+    float: right;
+    position: absolute;
+    top: 5%;
+    left: 80%;
+    }
+
+    a{
+        color:white;
+        }
+
+.parentContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    }
+  
+    .centered {
+      position: absolute;
+      top: 60%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+      }   
+
+      .id {
+        font-size: 7;
+        font-family: cursive;
+        text-align: center;
+        color: white;
+    }

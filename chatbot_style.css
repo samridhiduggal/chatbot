@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+}
+
+.logo {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .logo img {
+    height: 60px;
+  }
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: "Verdana", "Lucida Handwriting", serif;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-family: "Verdana", "Lucida Handwriting", serif;
+}
+
+.leftdiv{
+    float: left;
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    }
+
+
+.rightdiv{
+    float: right;
+    position: absolute;
+    top: 5%;
+    left: 80%;
+    }
+
+    a{
+        color:white;
+        }
+
+.parentContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    }
+  
+    .centered {
+      position: absolute;
+      top: 60%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+      }   
+
+      .id {
+        font-size: 7;
+        font-family: cursive;
+        text-align: center;
+        color: white;
+    }
+
+
+.sidenav {
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.362); 
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+  
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color:  grey;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: rgba(128, 128, 128, 0.505);
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
